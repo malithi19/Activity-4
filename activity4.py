@@ -1,5 +1,7 @@
 from car import Car
 
-car = Car('M')
+car1 = Car('M')
+car2 = Car('U')
 print('Hello')
-print(car.value)
+print(car1.value)
+print(car2.value)
