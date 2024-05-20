@@ -3,6 +3,7 @@ class Bike:
 		self.name = name
 		self.type = bike_type
 		self.speed = 0
+		
 	def accelerate(self, increment):
         	self.speed += increment
         	return self.speed
